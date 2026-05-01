@@ -7,7 +7,7 @@ Data Cleaning
 KPI Calculation
 Data Visualization
 Main Insights
-Business Recommendations
+Recommendations
 Limitations and Conclusion
 Principali insight
 Le vendite totali non coincidono sempre con la redditività.
