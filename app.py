@@ -46,9 +46,11 @@ def main():
     )
 
     st.title("Superstore Sales Dashboard")
-    st.write(
-        "Interactive dashboard to explore sales, profit, discounts and customer segments."
-    )
+
+    st.caption(
+    "Portfolio project based on a US retail sample dataset. "
+    "The dashboard demonstrates transferable KPI reporting and business analysis skills."
+)
 
     df = load_superstore_data()
 

@@ -7,7 +7,7 @@ Data Cleaning
 KPI Calculation
 Data Visualization
 Main Insights
-Recommendations
+Business Recommendations
 Limitations and Conclusion
 Principali insight
 Le vendite totali non coincidono sempre con la redditività.
@@ -38,23 +38,27 @@ pip install -r requirements.txt
 
 ## Descrizione del progetto
 
-Questo progetto analizza il dataset **Sample - Superstore** con l’obiettivo di esplorare vendite, profitto, sconti, categorie, regioni, segmenti cliente e trend temporali.
+Questo progetto analizza il dataset **Sample - Superstore**, un dataset retail statunitense di esempio.
 
-Il lavoro è stato sviluppato come progetto accademico per dimostrare competenze base di analisi dati con Python e la capacità di costruire una dashboard interattiva con Streamlit.
+L’obiettivo è esplorare vendite, profitto, sconti, categorie prodotto, regioni, segmenti cliente e trend temporali, dimostrando competenze trasferibili di analisi dati, KPI reporting e business-oriented analysis.
 
-## Obiettivo dell’analisi
+Il progetto è stato sviluppato come **progetto portfolio durante il percorso Data & AI Analyst**, con un focus pratico su data cleaning, analisi commerciale, visualizzazioni e costruzione di una dashboard locale con Streamlit.
 
-L’obiettivo principale è identificare pattern utili, con particolare attenzione a:
+## Business question
 
-- performance di vendita;
-- redditività per categoria e regione;
+Come variano vendite, profitto e margine in base a categoria, regione, segmento cliente e periodo temporale all’interno di un dataset retail statunitense di esempio?
+
+L’analisi mira a identificare:
+
+- categorie e sottocategorie con performance più forti o critiche;
+- differenze tra vendite totali e redditività;
 - impatto degli sconti sul profitto;
-- sottocategorie con performance critiche;
-- andamento delle vendite nel tempo.
+- trend mensili utili per lettura commerciale e reporting;
+- KPI sintetici per supportare decisioni operative.
 
-## Dataset utilizzato
+## Dataset
 
-Dataset: **Sample - Superstore.csv**
+Dataset utilizzato: **Sample - Superstore.csv**
 
 Il dataset contiene informazioni su ordini, vendite, profitto, sconti, quantità, categorie prodotto, regioni, segmenti cliente e date degli ordini.
 
